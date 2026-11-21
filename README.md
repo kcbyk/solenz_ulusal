@@ -2,23 +2,21 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kcbyk/solenz_ulusal)
 
-Aynı Sinepad arayüzü hem **Render Static Site** üzerinde, hem de **Android TV APK** içinde kullanılır. 55 kanal/logonun bulunduğu tek kaynak HTML `site/index.html` dosyasıdır; APK bu dosyayı Gradle assets olarak paketler. APK ilk açılışta gömülü sayfayı yükler; Render hesabı veya internet bağlantısı yalnızca sayfayı görüntülemek için gerekmez. **Canlı yayınlar için internet gerekir.**
+Aynı Sinepad arayüzü hem [**canlı Render sitesinde**](https://solenz-ulusal.onrender.com/), hem de **Android TV APK** içinde kullanılır. 55 kanal/logonun bulunduğu tek kaynak HTML `site/index.html` dosyasıdır; APK bu dosyayı yedek olarak paketler. **APK v0.2.0 ilk açılışta `https://solenz-ulusal.onrender.com/` adresini yükler; sunucuya erişilemiyorsa gömülü kopyaya döner.** Gömülü sayfa için internet gerekmez, canlı yayınlar için gerekir.
 
 ## Önce Android TV'de dene
 
-1. [`apk/Solenz-TV-AndroidTV-debug.apk`](apk/Solenz-TV-AndroidTV-debug.apk) dosyasını TV'ye USB ile taşıyıp "Bilinmeyen uygulamaları yükle" izniyle kur; veya TV'de geliştirici/hata ayıklama etkinse bilgisayardan `adb install -r apk/Solenz-TV-AndroidTV-debug.apk` kullan. TV sürümüne göre `adb pair <TV_IP>:<PAIR_PORT>` ve ardından `adb connect <TV_IP>:<DEBUG_PORT>` gerekebilir. Bilinmeyen APK'ları başka kaynaklardan kurma.
+1. [`apk/Solenz-TV-AndroidTV-debug.apk`](apk/Solenz-TV-AndroidTV-debug.apk) dosyasını TV'ye USB ile taşıyıp "Bilinmeyen uygulamaları yükle" izniyle kur; **veya** TV ile aynı yerel ağdaki bilgisayarda ADB kurup `bash scripts/install-tv.sh` (Windows: `scripts\\install-tv.bat`) çalıştır. Varsayılan hedef `192.168.1.103:5555`; TV'nin IP'si/portu farklıysa betiğe argüman ver. TV'de geliştirici seçenekleri ve ADB hata ayıklama açık olmalı. Android 11+ eşleştirme ekranı farklı port gösteriyorsa önce `adb pair 192.168.1.103:<PAIR_PORT>`, ardından `adb connect 192.168.1.103:<DEBUG_PORT>` kullan. Bulut ortamındaki bir makine evdeki `192.168.x.x` IP'sine doğrudan erişemez. Bilinmeyen APK'ları başka kaynaklardan kurma.
 2. TV uygulamaları menüsünden **Solenz TV**'yi aç. Seçili kanal ana ekranda **sessiz önizleme**, "İzle" ile oynatıcıda sesli yayın; kumandada yön tuşları, OK ve geri tuşu kullanılır.
-3. Kumandada **MENU/Ayarlar** tuşuyla gömülü sürüm ile daha sonra Render'da yayınlayacağın HTTPS adresi arasında geçiş yapabilirsin. Bazı kumandalarda MENU tuşu bulunmayabilir; uygulama yine varsayılan gömülü sürümle açılır. APK'nın içine giren site değiştiğinde yeni APK derlenip kurulmalıdır; Render adresi seçilirse sayfa güncellemeleri Render'dan gelir.
+3. Varsayılan kaynak hazır **Render sitesi**. Kumandada **MENU/Ayarlar** tuşuyla Render, gömülü yedek veya başka bir HTTPS adresi arasında geçiş yapabilirsin. Bazı kumandalarda MENU tuşu yoktur; uygulama yine varsayılan Render adresini açar. Render'daki sayfa güncellemeleri yeni APK kurmadan gelir; gömülü yedeği güncellemek için APK yeniden derlenmelidir.
 
 Bu dosya **debug imzalı test APK'sıdır**, Play Store için üretim sürümü veya kalıcı güncelleme anahtarı değildir. Yeni debug anahtarıyla yeniden imzalanmış sürümler eski sürümün üzerine yüklenmeyebilir. TV modelinde henüz gerçek cihaz testi yapılmadı: Android System WebView, codec desteği, yayıncı CORS kısıtları ve ağ erişimi modelden modele değişir. TV'de WebView kurulu/etkin değilse uygulama bunu bildirir. Kamuya açık yayın listeleri yayın/marka haklarını vermez.
 
-## Render'da siteyi aç (Web Service değil, Static Site)
+## Render sitesi (Web Service değil, Static Site)
 
-1. Bu GitHub reposunu Render hesabına bağla.
-2. Render'da **New → Blueprint** ile kökteki `render.yaml` dosyasını seç; alternatif olarak **New → Static Site**, depo `kcbyk/solenz_ulusal`, **Publish Directory:** `site`, **Build Command:** `echo prebuilt` gir.
-3. Deploy sonrası Render'ın verdiği `https://...onrender.com` adresini TV tarayıcısında aç. İstersen Android TV APK'daki **MENU/Ayarlar → Render / HTTPS adresini ayarla** seçeneğiyle aynı adresi uygulamaya yaz.
+[https://solenz-ulusal.onrender.com/](https://solenz-ulusal.onrender.com/) **21 Kasım 2026'da HTTP 200 ve aynı HTML içerik karmasıyla doğrulandı**. Chromium'da TRT 1, Show TV ve TV8 ana sayfa sessiz önizlemeleri başlatıldı. `render.yaml` tanımı statik `site/` klasörünü yayımlar; değişikliklerde GitHub üzerinden otomatik deploy ayarını Render hesabından kontrol et.
 
-**Önemli:** Render hesabı ayrı; GitHub'a kod göndermek Render hizmetini kendiliğinden başlatmaz. Gerçek `onrender.com` adresi hizmeti kurduktan sonra belli olur; bu depoda sahte bir URL yoktur. Render yalnız arayüzü/HTML'yi sunar. Video dosyaları doğrudan yayıncı CDN'lerinden gelir; Render proxy/CDN kısıtlarını aşmaz. Render Static Site üzerinde `source/server.js` ve `/api/*` çalışmaz, bu APK/tek HTML için gerekli değildir. GitHub repo ve Render Static Site herkese açıktır; dağıtım haklarını kontrol edin.
+Render yalnız HTML arayüzünü sunar. Videoları TV yayıncı CDN'lerinden doğrudan alır; Render proxy/CORS/DRM veya coğrafi kısıtı çözmez. Static Site üzerinde `source/server.js` ve `/api/*` çalışmaz; APK/tek HTML için gerekli değildir. Repo ve Render sitesi herkese açıktır; dağıtım haklarını kontrol edin.
 
 ## Kaynak, eşitleme, APK derleme
 

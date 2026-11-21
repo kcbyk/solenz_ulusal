@@ -28,6 +28,7 @@ import androidx.webkit.WebViewAssetLoader;
 /** Android TV shell for the exact same Sinepad UI published at site/index.html. */
 public final class MainActivity extends Activity {
     private static final String LOCAL_URL = "https://appassets.androidplatform.net/assets/index.html";
+    private static final String DEFAULT_REMOTE_URL = "https://solenz-ulusal.onrender.com/";
     private static final String PREFS = "solenz_tv";
     private static final String SERVER_URL = "server_url";
     private FrameLayout root;
@@ -86,17 +87,17 @@ public final class MainActivity extends Activity {
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 if (!request.isForMainFrame()) return false;
                 Uri uri = request.getUrl();
-                String remote = prefs.getString(SERVER_URL, "");
+                String selected = homeUrl();
                 boolean local = "appassets.androidplatform.net".equals(uri.getHost()) && "https".equals(uri.getScheme());
-                boolean configured = !remote.isEmpty() && "https".equals(uri.getScheme()) &&
-                    uri.getHost() != null && uri.getHost().equals(Uri.parse(remote).getHost());
+                boolean configured = !LOCAL_URL.equals(selected) && "https".equals(uri.getScheme()) &&
+                    uri.getHost() != null && uri.getHost().equals(Uri.parse(selected).getHost());
                 return !(local || configured); // no unexpected top-level external navigation
             }
             @Override public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
-                if (request.isForMainFrame() && !prefs.getString(SERVER_URL, "").isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Sunucuya erişilemiyor; gömülü sürüm açıldı", Toast.LENGTH_LONG).show();
-                    webView.loadUrl(LOCAL_URL);
-                }
+                if (request.isForMainFrame()) fallbackIfRemoteError(request.getUrl());
+            }
+            @Override public void onReceivedHttpError(WebView view, WebResourceRequest request, WebResourceResponse response) {
+                if (request.isForMainFrame() && response.getStatusCode() >= 400) fallbackIfRemoteError(request.getUrl());
             }
         });
         chromeClient = new WebChromeClient() {
@@ -121,9 +122,21 @@ public final class MainActivity extends Activity {
         webView.requestFocus();
     }
 
+    private String homeUrl() {
+        String selected = prefs.getString(SERVER_URL, DEFAULT_REMOTE_URL);
+        return selected.isEmpty() ? LOCAL_URL : selected;
+    }
+
     private void openHome() {
-        String remote = prefs.getString(SERVER_URL, "");
-        webView.loadUrl(remote.isEmpty() ? LOCAL_URL : remote);
+        webView.loadUrl(homeUrl());
+    }
+
+    private void fallbackIfRemoteError(Uri failed) {
+        String selected = homeUrl();
+        if (LOCAL_URL.equals(selected) || failed.getHost() == null ||
+            !failed.getHost().equals(Uri.parse(selected).getHost())) return;
+        Toast.makeText(this, "Sunucuya erişilemiyor; gömülü sürüm açıldı", Toast.LENGTH_LONG).show();
+        webView.loadUrl(LOCAL_URL);
     }
 
     // Android TV remote: MENU (or Settings) opens the server selector; D-pad goes to WebView.
@@ -138,12 +151,15 @@ public final class MainActivity extends Activity {
 
     private void showServerMenu() {
         new AlertDialog.Builder(this).setTitle("Solenz TV · Kaynak")
-            .setItems(new String[]{"Gömülü sürümü aç", "Render / HTTPS adresini ayarla", "Sayfayı yenile"},
+            .setItems(new String[]{"Render sitesini aç (varsayılan)", "Gömülü sürümü aç", "HTTPS adresini değiştir", "Sayfayı yenile"},
                 (dialog, choice) -> {
                     if (choice == 0) {
                         prefs.edit().remove(SERVER_URL).apply();
-                        webView.loadUrl(LOCAL_URL);
+                        openHome();
                     } else if (choice == 1) {
+                        prefs.edit().putString(SERVER_URL, "").apply();
+                        openHome();
+                    } else if (choice == 2) {
                         showUrlInput();
                     } else {
                         webView.reload();
@@ -154,7 +170,8 @@ public final class MainActivity extends Activity {
     private void showUrlInput() {
         final EditText input = new EditText(this);
         input.setSingleLine(true);
-        input.setText(prefs.getString(SERVER_URL, "https://"));
+        String configured = prefs.getString(SERVER_URL, DEFAULT_REMOTE_URL);
+        input.setText(configured.isEmpty() ? DEFAULT_REMOTE_URL : configured);
         input.setSelectAllOnFocus(true);
         input.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_URI);
         new AlertDialog.Builder(this).setTitle("Render sitesi (HTTPS)")
