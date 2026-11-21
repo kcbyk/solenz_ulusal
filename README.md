@@ -1,5 +1,7 @@
 # Solenz Ulusal · Sinepad Android TV
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kcbyk/solenz_ulusal)
+
 Aynı Sinepad arayüzü hem **Render Static Site** üzerinde, hem de **Android TV APK** içinde kullanılır. 55 kanal/logonun bulunduğu tek kaynak HTML `site/index.html` dosyasıdır; APK bu dosyayı Gradle assets olarak paketler. APK ilk açılışta gömülü sayfayı yükler; Render hesabı veya internet bağlantısı yalnızca sayfayı görüntülemek için gerekmez. **Canlı yayınlar için internet gerekir.**
 
 ## Önce Android TV'de dene
