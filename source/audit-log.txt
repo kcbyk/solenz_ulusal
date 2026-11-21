@@ -1,0 +1,56 @@
+TRT 1                   medya_parcasi_eristi       2560x1440    https://tv-trt1.medya.trt.com.tr/master_1440.m3u8
+atv                     medya_parcasi_eristi       1080p        
+Kanal D                 medya_parcasi_eristi       1080p        
+NOW                     medya_parcasi_eristi       720p         
+Star TV                 medya_parcasi_eristi       720p         
+TV8                     medya_parcasi_eristi       1920x1080    https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
+Kanal 7                 kontrol_edilmeli           None         
+Show TV                 medya_parcasi_eristi       1080p        
+TRT Haber               medya_parcasi_eristi       2560x1440    https://tv-trthaber.medya.trt.com.tr/master_1440.m3u8
+A Haber                 medya_parcasi_eristi       1920x1080    https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+NTV                     medya_parcasi_eristi       1920x1080    
+Halk TV                 medya_parcasi_eristi       1920x1080    https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
+TGRT Haber              medya_parcasi_eristi       None         
+24 TV                   medya_parcasi_eristi       1080p        https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
+Flash Haber             medya_parcasi_eristi       1920x1080    https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/mt_0.m3u8
+İlke TV                 medya_parcasi_eristi       None         
+Ekotürk                 medya_parcasi_eristi       1280x720     https://cdn.ekoturk.net/hls/720p.m3u8
+Bloomberg HT            resmi_sayfa                None         
+CNBC-e                  medya_parcasi_eristi       1920x1080    https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
+Haber Global            resmi_sayfa                None         
+Habertürk               resmi_sayfa                None         
+CNN Türk                resmi_sayfa                None         
+TELE1                   kontrol_edilmeli           None         
+TVNET                   kontrol_edilmeli           None         
+Sözcü TV                resmi_sayfa                None         
+TRT 2                   medya_parcasi_eristi       2560x1440    https://tv-trt2.medya.trt.com.tr/master_1440.m3u8
+TRT Avaz                medya_parcasi_eristi       2560x1440    https://tv-trtavaz.medya.trt.com.tr/master_1440.m3u8
+TRT Belgesel            kontrol_edilmeli           None         
+TRT Çocuk               medya_parcasi_eristi       2560x1440    https://tv-trtcocuk.medya.trt.com.tr/master_1440.m3u8
+TRT Diyanet Çocuk       medya_parcasi_eristi       2560x1440    https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1440.m3u8
+TRT Genç                kontrol_edilmeli           None         
+TRT Kurdî               medya_parcasi_eristi       2560x1440    https://tv-trtkurdi.medya.trt.com.tr/master_1440.m3u8
+TRT Müzik               medya_parcasi_eristi       2560x1440    https://tv-trtmuzik.medya.trt.com.tr/master_1440.m3u8
+TRT Türk                medya_parcasi_eristi       2560x1440    https://tv-trtturk.medya.trt.com.tr/master_1440.m3u8
+TRT Spor Yıldız         manifest_var_medya_yok     None         
+A Spor                  medya_parcasi_eristi       1920x1080    https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+HT Spor                 medya_parcasi_eristi       1080p        
+TJK TV                  medya_parcasi_eristi       1280x720     https://tjktv-live.tjk.org/tjktv_720p.m3u8
+TBMM TV                 medya_parcasi_eristi       720p         https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8?e=&st=
+Diyanet TV              medya_parcasi_eristi       1920x1080    https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
+a2                      medya_parcasi_eristi       1920x1080    https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+360                     medya_parcasi_eristi       360p         https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
+TV4                     medya_parcasi_eristi       1080p        https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+Euro D                  medya_parcasi_eristi       None         https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+Dream Türk              medya_parcasi_eristi       None         https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8
+Kral Pop TV             manifest_var_medya_yok     None         
+Number1 TV              medya_parcasi_eristi       None         https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
+Power TV                medya_parcasi_eristi       None         
+PowerTürk TV            medya_parcasi_eristi       1920x1080    
+Minika Çocuk            medya_parcasi_eristi       1280x720     https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
+Minika Go               medya_parcasi_eristi       1280x720     https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
+GZT TV                  kontrol_edilmeli           None         
+VAV TV                  medya_parcasi_eristi       1920x1080    https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/0.m3u8
+TGRT Belgesel           manifest_var_medya_yok     None         
+Beyaz TV                medya_parcasi_eristi       1920x1080    https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+ÖZET: {'medya_parcasi_eristi': 41, 'kontrol_edilmeli': 6, 'resmi_sayfa': 5, 'manifest_var_medya_yok': 3}

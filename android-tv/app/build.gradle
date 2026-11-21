@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.solenz.ulusal'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'com.solenz.ulusal'
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName '0.1.0'
+    }
+    // Both Render and the APK use the SAME HTML file. No second UI to maintain.
+    sourceSets {
+        main.assets.srcDirs += [file('../../site')]
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.7.0'
+}

@@ -1,0 +1,222 @@
+{
+  "TRT1": {
+    "status": "ok",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"
+  },
+  "ATV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/HyVUwFC.png"
+  },
+  "KanalD": {
+    "status": "ok",
+    "source": "https://i.imgur.com/9o1atM6.png"
+  },
+  "NOW": {
+    "status": "ok",
+    "source": "https://i.imgur.com/5EYjWK7.png"
+  },
+  "StarTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/9O3DHRB.png"
+  },
+  "TV8": {
+    "status": "ok",
+    "source": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"
+  },
+  "Kanal7": {
+    "status": "ok",
+    "source": "https://i.imgur.com/0gq9xOm.png"
+  },
+  "ShowTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/1l7SCCu.png"
+  },
+  "TRTHaber": {
+    "status": "ok",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"
+  },
+  "AHaber": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-haber-tr.png"
+  },
+  "NTV": {
+    "status": "ok",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png"
+  },
+  "HalkTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/xM0HA30.png"
+  },
+  "TGRTHaber": {
+    "status": "ok",
+    "source": "https://i.imgur.com/PrxwKDw.png"
+  },
+  "24TV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/8FO41es.png"
+  },
+  "FlashHaberTV": {
+    "status": "ok",
+    "source": "manual-logos/FlashHaberTV.png"
+  },
+  "IlkeTV": {
+    "status": "ok",
+    "source": "https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png"
+  },
+  "Ekoturk": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ekoturk-tr.png"
+  },
+  "BloombergHT": {
+    "status": "ok",
+    "source": "https://i.imgur.com/bmkXfIE.png"
+  },
+  "CNBCe": {
+    "status": "ok",
+    "source": "https://s.cnbce.com/dist/images/logo-nav.png"
+  },
+  "HaberGlobal": {
+    "status": "ok",
+    "source": "https://i.imgur.com/fu6XeGS.png"
+  },
+  "HaberturkTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/6Tw3rUp.png"
+  },
+  "CNNTurk": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png"
+  },
+  "Tele1": {
+    "status": "ok",
+    "source": "https://i.imgur.com/WIfBbLj.png"
+  },
+  "TVNET": {
+    "status": "ok",
+    "source": "https://i.imgur.com/mQo8yWQ.png"
+  },
+  "SozcuTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/BxpdvsG.png"
+  },
+  "TRT2": {
+    "status": "ok",
+    "source": "https://i.imgur.com/iOCQdyD.png"
+  },
+  "TRTAvaz": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-avaz-tr.png"
+  },
+  "TRTBelgesel": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-belgesel-tr.png"
+  },
+  "TRTCocuk": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-cocuk-tr.png"
+  },
+  "TRTDiyanetCocuk": {
+    "status": "ok",
+    "source": "https://i.imgur.com/8PmXz9t.png"
+  },
+  "TRTGenc": {
+    "status": "ok",
+    "source": "https://i.imgur.com/fCHQYWS.png"
+  },
+  "TRTKurdi": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-kurdi-tr.png"
+  },
+  "TRTMuzik": {
+    "status": "ok",
+    "source": "https://i.imgur.com/JgUzRH8.png"
+  },
+  "TRTTurk": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-turk-tr.png"
+  },
+  "TRTSporYildiz": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-yildiz-tr.png"
+  },
+  "ASpor": {
+    "status": "ok",
+    "source": "https://i.imgur.com/ZhkZzLf.png"
+  },
+  "HTSporTV": {
+    "status": "ok",
+    "source": "https://www.htspor.com/images/manifest/social-share-logo.png"
+  },
+  "TJKTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/3zHdkYG.png"
+  },
+  "TBMMTV": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tbmm-tv-tr.png"
+  },
+  "DiyanetTV": {
+    "status": "ok",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/diyanet-tv-tr.png"
+  },
+  "A2TV": {
+    "status": "ok",
+    "source": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png"
+  },
+  "360": {
+    "status": "ok",
+    "source": "https://i.imgur.com/agn47sQ.png"
+  },
+  "TV4": {
+    "status": "ok",
+    "source": "https://i.imgur.com/UpsQsbd.png"
+  },
+  "EuroD": {
+    "status": "ok",
+    "source": "https://i.imgur.com/x9kHsXo.png"
+  },
+  "DreamTurk": {
+    "status": "ok",
+    "source": "https://i.imgur.com/vJ8VaZi.png"
+  },
+  "KralPopTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/ch365lh.png"
+  },
+  "Number1TV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/02cDIBi.png"
+  },
+  "PowerTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/XSL1gd7.png"
+  },
+  "PowerTurkTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/9OPoXQG.png"
+  },
+  "MinikaCocuk": {
+    "status": "ok",
+    "source": "https://i.imgur.com/VCywMTv.png"
+  },
+  "MinikaGo": {
+    "status": "ok",
+    "source": "https://i.imgur.com/qIoipDq.png"
+  },
+  "GZT": {
+    "status": "ok",
+    "source": "manual-logos/GZT.webp"
+  },
+  "VavTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/jw0gB8L.png"
+  },
+  "TGRTBelgesel": {
+    "status": "ok",
+    "source": "https://i.imgur.com/VwWTnf0.png"
+  },
+  "BeyazTV": {
+    "status": "ok",
+    "source": "https://i.imgur.com/uykIdML.png"
+  }
+}

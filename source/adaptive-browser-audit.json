@@ -1,0 +1,320 @@
+{
+  "date": "2026-11-21T04:48:33.104Z",
+  "results": [
+    {
+      "id": "TRT1",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "KanalD",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "ATV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "NOW",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TV8",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "ShowTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTHaber",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "HalkTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "24TV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "AHaber",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "FlashHaberTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "Ekoturk",
+      "w": 426,
+      "h": 240,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "CNBCe",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRT2",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTAvaz",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTCocuk",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTKurdi",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTDiyanetCocuk",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTMuzik",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TRTTurk",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "ASpor",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TBMMTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "HTSporTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "DiyanetTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "360",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "A2TV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "TV4",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "EuroD",
+      "w": 426,
+      "h": 240,
+      "ready": 4,
+      "err": 0,
+      "hls": false,
+      "native": true
+    },
+    {
+      "id": "DreamTurk",
+      "w": 426,
+      "h": 240,
+      "ready": 4,
+      "err": 0,
+      "hls": false,
+      "native": true
+    },
+    {
+      "id": "Number1TV",
+      "w": 1280,
+      "h": 720,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "PowerTV",
+      "w": 854,
+      "h": 480,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "MinikaGo",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "MinikaCocuk",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "BeyazTV",
+      "w": 640,
+      "h": 360,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    },
+    {
+      "id": "PowerTurkTV",
+      "w": 854,
+      "h": 480,
+      "ready": 4,
+      "err": 0,
+      "hls": true,
+      "native": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Android / Gradle generated files and local secrets
+.gradle/
+**/build/
+*.iml
+.idea/
+local.properties
+*.keystore
+*.jks
+*.log
+.DS_Store
+# APKs are published in apk/ intentionally; never commit signing keys.

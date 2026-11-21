@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-21T04:36:50.635Z",
+  "results": [
+    {
+      "id": "TRT1",
+      "name": "TRT 1",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "KanalD",
+      "name": "Kanal D",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "ATV",
+      "name": "atv",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TV8",
+      "name": "TV8",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTHaber",
+      "name": "TRT Haber",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "NOW",
+      "name": "NOW",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "ShowTV",
+      "name": "Show TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "NTV",
+      "name": "NTV",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": true,
+      "mediaError": 4
+    },
+    {
+      "id": "HalkTV",
+      "name": "Halk TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "24TV",
+      "name": "24 TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TGRTHaber",
+      "name": "TGRT Haber",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "AHaber",
+      "name": "A Haber",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "FlashHaberTV",
+      "name": "Flash Haber",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "Ekoturk",
+      "name": "Ekotürk",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "IlkeTV",
+      "name": "İlke TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "Tele1",
+      "name": "TELE1",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": true,
+      "mediaError": 4
+    },
+    {
+      "id": "CNBCe",
+      "name": "CNBC-e",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRT2",
+      "name": "TRT 2",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTAvaz",
+      "name": "TRT Avaz",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTCocuk",
+      "name": "TRT Çocuk",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTDiyanetCocuk",
+      "name": "TRT Diyanet Çocuk",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTKurdi",
+      "name": "TRT Kurdî",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTMuzik",
+      "name": "TRT Müzik",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TRTTurk",
+      "name": "TRT Türk",
+      "width": 2560,
+      "height": 1440,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "HTSporTV",
+      "name": "HT Spor",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": true,
+      "mediaError": 4
+    },
+    {
+      "id": "ASpor",
+      "name": "A Spor",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TBMMTV",
+      "name": "TBMM TV",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "DiyanetTV",
+      "name": "Diyanet TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "TJKTV",
+      "name": "TJK TV",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "A2TV",
+      "name": "a2",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "360",
+      "name": "360",
+      "width": 1920,
+      "height": 1080,
+      "ready": 1,
+      "paused": true,
+      "mediaError": 3
+    },
+    {
+      "id": "TV4",
+      "name": "TV4",
+      "width": 1920,
+      "height": 1080,
+      "ready": 1,
+      "paused": true,
+      "mediaError": 3
+    },
+    {
+      "id": "DreamTurk",
+      "name": "Dream Türk",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "EuroD",
+      "name": "Euro D",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "Number1TV",
+      "name": "Number1 TV",
+      "width": 1280,
+      "height": 720,
+      "ready": 1,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "PowerTV",
+      "name": "Power TV",
+      "width": 854,
+      "height": 480,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "PowerTurkTV",
+      "name": "PowerTürk TV",
+      "width": 1920,
+      "height": 1080,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "MinikaGo",
+      "name": "Minika Go",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "VavTV",
+      "name": "VAV TV",
+      "width": 0,
+      "height": 0,
+      "ready": 0,
+      "paused": true,
+      "mediaError": 4
+    },
+    {
+      "id": "MinikaCocuk",
+      "name": "Minika Çocuk",
+      "width": 1280,
+      "height": 720,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    },
+    {
+      "id": "BeyazTV",
+      "name": "Beyaz TV",
+      "width": 640,
+      "height": 360,
+      "ready": 4,
+      "paused": false,
+      "mediaError": 0
+    }
+  ]
+}

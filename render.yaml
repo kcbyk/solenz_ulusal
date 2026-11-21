@@ -1,0 +1,8 @@
+# Render Dashboard -> New -> Blueprint -> select this GitHub repository.
+# Render hosts the UI only; each TV fetches videos directly from the broadcasters.
+services:
+  - type: web
+    name: solenz-ulusal
+    runtime: static
+    buildCommand: echo "Using the checked-in site/index.html"
+    staticPublishPath: ./site
